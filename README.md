@@ -11,7 +11,7 @@ npm run dev
 
 ```sh
 curl -H 'accept: application/json, text/event-stream' -H 'content-type: application/json' \
-  -d '{"jsonrpc":"2.0","method":"initialize","id":0}' \
+  -d '{"jsonrpc":"2.0","method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"a","version":"1"}},"id":0}' \
   http://localhost:3000
 ```
 
